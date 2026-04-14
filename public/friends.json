@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arafat.hossain@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "We studied Computer Science together at university. Often worked on coding projects and still shares tech ideas.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school", "best friend"],
+    "bio": "Childhood friend from school. We used to study together and still catch up over long phone calls.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 3,
+    "name": "Imran Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "imran.chy@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "colleague"],
+    "bio": "Works in the same tech company. We collaborate on frontend development and share career advice.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 4,
+    "name": "Farzana Akter",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "farzana.akter@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Family friend who lives nearby. We meet during festivals and occasionally go shopping together.",
+    "goal": 14,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 5,
+    "name": "Rakib Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "rakib.hasan@protonmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Met at the gym. We motivate each other to stay consistent and often discuss workout routines.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 6,
+    "name": "Sadia Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "sadia.rahman@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["university", "study partner"],
+    "bio": "We prepared for exams together and still share learning resources and career opportunities.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 7,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["travel", "adventure buddy"],
+    "bio": "We travel together whenever possible. Last trip was to Bandarban where we went trekking.",
+    "goal": 14,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 8,
+    "name": "Mehjabin Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "mehjabin.sultana@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["neighbor", "friendly"],
+    "bio": "Lives in the same neighborhood. We occasionally meet for tea and discuss daily life.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 9,
+    "name": "Hasib Mahmud",
+    "picture": "https://randomuser.me/api/portraits/men/60.jpg",
+    "email": "hasib.mahmud@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["freelance", "client"],
+    "bio": "Met through freelance projects. We worked on website design and occasionally collaborate on new gigs.",
+    "goal": 14,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 10,
+    "name": "Jannatul Ferdous",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "jannatul.ferdous@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["book club", "friend"],
+    "bio": "We met at a local book club. Love discussing novels and sharing book recommendations.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  }
+]
