@@ -13,8 +13,8 @@ const Navbar = () => {
     const links = <>
 
         <li><Link className={pathname === '/' ? 'text-blue-400' : ''} href="/">Home</Link></li>
-        <li><Link className={pathname === '/about' ? 'text-blue-400' : ''} href="/about">Timeline</Link></li>
-        <li><Link className={pathname === '/blogs' ? 'text-blue-400' : ''} href="/blogs">Stats</Link></li>
+        <li><Link className={pathname === '/timeline' ? 'text-blue-400' : ''} href="/timeline">Timeline</Link></li>
+        <li><Link className={pathname === '/stats' ? 'text-blue-400' : ''} href="/stats">Stats</Link></li>
         
 
     </>
