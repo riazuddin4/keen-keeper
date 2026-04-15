@@ -1,13 +1,13 @@
 'use client';
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import Button from "@/components/button/Button";
 
 export default function FriendDetails() {
     const { id } = useParams();
     const [friend, setFriend] = useState(null);
-
     useEffect(() => {
-        fetch("/friends.json")
+        fetch("http://localhost:3000/friends.json")
             .then(res => res.json())
             .then(data => {
                 const singleFriend = data.find(f => f.id == id);
@@ -15,7 +15,7 @@ export default function FriendDetails() {
             });
     }, [id]);
 
-    if (!friend) return <p className="text-center mt-10">Loading...</p>;
+    // if (!friend) return <p className="text-center mt-10">Loading...</p>;
 
     return (
         // <div className="max-w-xl mx-auto mt-10 p-6 bg-white shadow rounded text-center">
@@ -51,7 +51,8 @@ export default function FriendDetails() {
 
         <div className=" max-w-4xl mx-auto bg-white rounded-xl shadow p-6 ">
 
-            <div className="flex gap-4 space-y-6">
+            {friend && 
+                <div className="flex gap-4 space-y-6">
 
 
                 <div className=" flex-col md:flex-row items-center justify-between gap-6">
@@ -61,13 +62,23 @@ export default function FriendDetails() {
                         <img
                             src={friend.picture}
                             alt={friend.name}
-                            className="w-24 h-24 rounded-full mx-auto mb-4"
+                            className="w-24 h-24 rounded-full mx-auto "
                         />
                         <div className="mx-auto text-center space-y-2">
                             <h2 className="text-lg font-semibold">{friend.name}</h2>
 
                             <span className="text-xs bg-red-100 text-red-500 px-2 py-1 rounded-full">
                                 {friend.status}
+                            </span>
+                            <br />
+                            <br />
+                            <span className="text-xs bg-green-100 mb-2 text-green-500 px-2 py-1 rounded-full">
+                                {friend.tags}
+                            </span>
+                            <br />
+                            <br />
+                            <span className="text-xs bg-green-100 mb-2 text-green-500 px-2 py-1 rounded-full">
+                                {friend.email}
                             </span>
 
                             <p className="text-xs text-gray-400 mt-1">
@@ -87,8 +98,6 @@ export default function FriendDetails() {
                             Delete
                         </button>
                     </div>
-
-
 
                 </div>
 
@@ -149,31 +158,12 @@ export default function FriendDetails() {
                             Quick Check-In
                         </h3>
 
-                        <div className="flex gap-4">
-                            <button className="flex-1 bg-gray-100 p-3 rounded-lg flex flex-col items-center hover:bg-gray-200">
-                                
-                                <span className="text-xs mt-1">Call</span>
-                            </button>
-
-                            <button className="flex-1 bg-gray-100 p-3 rounded-lg flex flex-col items-center hover:bg-gray-200">
-                               
-                                <span className="text-xs mt-1">Text</span>
-                            </button>
-
-                            <button className="flex-1 bg-gray-100 p-3 rounded-lg flex flex-col items-center hover:bg-gray-200">
-                               
-                                <span className="text-xs mt-1">Video</span>
-                            </button>
-                        </div>
+                       <Button name={friend.name} id={friend.id}/>
 
                     </div>
                 </div>
 
-
-                
-
-
-            </div>
+            </div>}
 
         </div>
 

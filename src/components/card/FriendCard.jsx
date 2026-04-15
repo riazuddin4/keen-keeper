@@ -34,14 +34,14 @@ const FriendCard = () => {
                                     key={friend.id}
                                     className="bg-white rounded-lg shadow-sm p-5 text-center hover:shadow-md transition"
                                 >
-                                    {/* Image */}
+                                    
                                     <img
                                         src={friend.picture}
                                         alt={friend.name}
                                         className="w-16 h-16 rounded-full mx-auto mb-3"
                                     />
 
-                                    {/* Name */}
+                                    
                                     <h3 className="font-semibold text-gray-800">
                                         {friend.name}
                                     </h3>
@@ -63,7 +63,7 @@ const FriendCard = () => {
                                         ))}
                                     </div>
 
-                                    {/* Status */}
+                                    
                                     <span
                                         className={`text-xs text-white px-3 py-1 rounded-full ${statusColor}`}
                                     >

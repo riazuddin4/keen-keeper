@@ -21,7 +21,12 @@ const FriendDetails = ({ friend }) => {
                         <span className="text-xs bg-red-100 text-red-500 px-2 py-1 rounded-full">
                             {friend.status}
                         </span>
+                        
 
+                        <p className="text-xs text-gray-400 mt-1">
+                            “{friend.email}”
+                        </p>
+                        
                         <p className="text-xs text-gray-400 mt-1">
                             “{friend.bio}”
                         </p>

@@ -1,11 +1,25 @@
-import React from 'react';
+// import React from 'react';
+// import { Pie, PieChart, Tooltip } from 'recharts';
 
-const StatsPage = () => {
-    return (
-        <div>
-            <h1>Stats</h1>
-        </div>
-    );
-};
+// const StatsPage = ({ isAnimationActive = true }: { isAnimationActive?: boolean }) => {
+//     return (
+//         <PieChart width={400} height={400}>
+//       <Pie
+//         activeShape={{
+//           fill: 'red',
+//         }}
+//         data={[
+//           { name: 'Page A', uv: 590 },
+//           { name: 'Page B', uv: 590 },
+//           { name: 'Page C', uv: 868 },
+//         ]}
+//         dataKey="uv"
+//         isAnimationActive={isAnimationActive}
+//       />
+//       <Tooltip defaultIndex={2} />
+//       <RechartsDevtools />
+//     </PieChart>
+//     );
+// };
 
-export default StatsPage;
+// export default StatsPage;
