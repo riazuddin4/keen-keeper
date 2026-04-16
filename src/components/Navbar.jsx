@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { CiAlarmOn, CiHome } from "react-icons/ci";
+import { FaChartLine } from "react-icons/fa";
 
 
 
@@ -12,9 +14,9 @@ const Navbar = () => {
     console.log(pathname);
     const links = <>
 
-        <li><Link className={pathname === '/' ? 'text-blue-400' : ''} href="/">Home</Link></li>
-        <li><Link className={pathname === '/timeline' ? 'text-blue-400' : ''} href="/timeline">Timeline</Link></li>
-        <li><Link className={pathname === '/stats' ? 'text-blue-400' : ''} href="/stats">Stats</Link></li>
+        <li><Link className={pathname === '/' ? 'text-blue-400' : ''} href="/"><CiHome />Home</Link></li>
+        <li><Link className={pathname === '/timeline' ? 'text-blue-400' : ''} href="/timeline"><CiAlarmOn />Timeline</Link></li>
+        <li><Link className={pathname === '/stats' ? 'text-blue-400' : ''} href="/stats"><FaChartLine />Stats</Link></li>
         
 
     </>

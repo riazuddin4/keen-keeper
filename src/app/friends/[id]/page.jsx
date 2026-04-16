@@ -15,7 +15,7 @@ export default function FriendDetails() {
             });
     }, [id]);
 
-    // if (!friend) return <p className="text-center mt-10">Loading...</p>;
+    if (!friend) return <p className="text-center mt-10">Loading...</p>;
 
     return (
         // <div className="max-w-xl mx-auto mt-10 p-6 bg-white shadow rounded text-center">
