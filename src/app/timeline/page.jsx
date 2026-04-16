@@ -6,6 +6,7 @@ import { IoCall } from "react-icons/io5";
 import { FaVideo } from "react-icons/fa";
 import { IoMdText } from "react-icons/io";
 
+
 const TimelinePage = () => {
   const { timeline } = useContext(TimelineContext);
   const [filter, setFilter] = useState("all");

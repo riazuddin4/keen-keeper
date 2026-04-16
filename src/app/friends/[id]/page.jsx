@@ -2,6 +2,7 @@
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Button from "@/components/button/Button";
+import Image from "next/image";
 
 export default function FriendDetails() {
     const { id } = useParams();
@@ -60,9 +61,11 @@ export default function FriendDetails() {
 
 
                     <div className="grid justify-center items-center mx-auto gap-3 ">
-                        <img
+                        <Image
                             src={friend.picture}
                             alt={friend.name}
+                            width={96}
+                            height={96}
                             className="w-24 h-24 rounded-full mx-auto "
                         />
                         <div className="mx-auto text-center space-y-2">

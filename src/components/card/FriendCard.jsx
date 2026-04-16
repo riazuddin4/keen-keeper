@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
@@ -38,9 +39,11 @@ const FriendCard = () => {
                                     className="bg-white rounded-lg shadow-sm p-5 text-center hover:shadow-md transition"
                                 >
                                     
-                                    <img
+                                    <Image
                                         src={friend.picture}
                                         alt={friend.name}
+                                        width={64}
+                                        height={64}
                                         className="w-16 h-16 rounded-full mx-auto mb-3"
                                     />
 
