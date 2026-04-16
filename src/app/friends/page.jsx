@@ -2,6 +2,8 @@
 // import Link from "next/link";
 // import React, { useEffect, useState } from "react";
 
+import FriendCard from "@/components/card/FriendCard";
+
 // const FriendCard = () => {
 //     const [friends, setFriends] = useState([]);
 
@@ -73,3 +75,11 @@
 // };
 
 // export default FriendCard;
+
+
+
+const FriendsPage = () => {
+  return <FriendCard />;
+};
+
+export default FriendsPage;
