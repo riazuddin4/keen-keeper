@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Name :
 
-## Getting Started
+KeenKeeper
 
-First, run the development server:
+Short Description :
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+KeenKeeper is a smart friendship management web application that helps users keep track of their interactions with friends. It allows users to log calls, texts, and video chats, visualize communication patterns, and never lose touch with important people.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies Used:
+Next.js (App Router)
+React.js
+Tailwind CSS
+Recharts (for data visualization)
+React Icons
+Context API (for state management)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Key Features:
+1. 📊 Interaction Analytics
 
-## Learn More
+Visualize your communication (Call, Text, Video) using interactive charts to understand your social activity.
 
-To learn more about Next.js, take a look at the following resources:
+2. 🕒 Timeline Tracking
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Track all your interactions in a clean timeline with filters (Call, Text, Video) and timestamps.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. 👥 Friend Management
 
-## Deploy on Vercel
+View friend cards with status indicators (overdue, almost due, active) to prioritize staying connected.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

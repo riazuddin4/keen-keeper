@@ -20,7 +20,7 @@
     "status": "almost due",
     "tags": ["school", "best friend"],
     "bio": "Childhood friend from school. We used to study together and still catch up over long phone calls.",
-    "goal": 14,
+    "goal": 54,
     "next_due_date": "2026-04-18"
   },
   {
@@ -32,7 +32,7 @@
     "status": "on-track",
     "tags": ["work", "colleague"],
     "bio": "Works in the same tech company. We collaborate on frontend development and share career advice.",
-    "goal": 14,
+    "goal": 100,
     "next_due_date": "2026-04-25"
   },
   {
@@ -44,7 +44,7 @@
     "status": "overdue",
     "tags": ["family friend"],
     "bio": "Family friend who lives nearby. We meet during festivals and occasionally go shopping together.",
-    "goal": 14,
+    "goal": 94,
     "next_due_date": "2026-03-25"
   },
   {
@@ -56,7 +56,7 @@
     "status": "almost due",
     "tags": ["gym", "fitness buddy"],
     "bio": "Met at the gym. We motivate each other to stay consistent and often discuss workout routines.",
-    "goal": 14,
+    "goal": 34,
     "next_due_date": "2026-04-15"
   },
   {
@@ -68,7 +68,7 @@
     "status": "on-track",
     "tags": ["university", "study partner"],
     "bio": "We prepared for exams together and still share learning resources and career opportunities.",
-    "goal": 14,
+    "goal": 30,
     "next_due_date": "2026-04-28"
   },
   {
@@ -80,7 +80,7 @@
     "status": "overdue",
     "tags": ["travel", "adventure buddy"],
     "bio": "We travel together whenever possible. Last trip was to Bandarban where we went trekking.",
-    "goal": 14,
+    "goal": 18,
     "next_due_date": "2026-03-15"
   },
   {
@@ -104,7 +104,7 @@
     "status": "overdue",
     "tags": ["freelance", "client"],
     "bio": "Met through freelance projects. We worked on website design and occasionally collaborate on new gigs.",
-    "goal": 14,
+    "goal": 11,
     "next_due_date": "2026-04-01"
   },
   {
@@ -116,7 +116,7 @@
     "status": "almost due",
     "tags": ["book club", "friend"],
     "bio": "We met at a local book club. Love discussing novels and sharing book recommendations.",
-    "goal": 14,
+    "goal": 13,
     "next_due_date": "2026-04-17"
   }
 ]
