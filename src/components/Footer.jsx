@@ -6,24 +6,23 @@ import tImage from '../assets/twitter.png';
 
 const Footer = () => {
     return (
-        <div className="bg-green-900 text-white py-16">
+        <div className="bg-green-900 text-white py-10">
             <div className="max-w-5xl mx-auto text-center px-4">
 
                 
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                    KeenKeeper
+                    <span className="font-bold">Keen</span>Keeper
                 </h1>
 
                 
-                <p className="text-gray-300 max-w-2xl mx-auto mb-8">
-                    Your personal shelf of meaningful connections. Browse, tend, and nurture
-                    the relationships that matter most.
+                <p className="text-gray-300 max-w-2xl mx-auto mb-2">
+                    Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
                 </p>
 
                 {/* Social Links */}
                 <h3 className="text-sm text-gray-400 mb-3">Social Links</h3>
 
-                <div className="flex justify-center gap-4 mb-10">
+                <div className="flex justify-center gap-4 mb-6">
                     {/* {["facebook", "github", "twitter"].map((item, i) => (
                         <div
                             key={i}

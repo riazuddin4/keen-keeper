@@ -15,7 +15,7 @@ export default function FriendDetails() {
             });
     }, [id]);
 
-    if (!friend) return <p className="text-center mt-10">Loading...</p>;
+    // if (!friend) return <p className="text-center mt-10">Loading...</p>;
     // if (!friend) return <Loading  />;
 
     return (

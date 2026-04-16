@@ -5,6 +5,7 @@ import { TimelineContext } from "../context/TimeContext";
 import { IoCall } from "react-icons/io5";
 import { FaVideo } from "react-icons/fa";
 import { IoMdText } from "react-icons/io";
+import { toast } from "react-toastify";
 
 const Button = ({ id, name }) => {
     // const router = useRouter();
@@ -20,6 +21,7 @@ const Button = ({ id, name }) => {
 
         addTimeline(newEntry); 
         // router.push(`/timeline/${id}`);
+        toast.success(`${type.toUpperCase()} with ${name}`);
     };
 
     return (

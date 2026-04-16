@@ -11,6 +11,9 @@ const FriendCard = () => {
             .then(data => setFriends(data));
     }, []);
 
+    if (!friends.length) return <p className="text-center mt-10">Loading...</p>;
+    // if (!friends.length) return <p className="text-center mt-10"><loading></loading></p>;
+
     return (
         <div className="bg-gray-100 py-10">
             <div className="max-w-6xl mx-auto px-4">
