@@ -7,7 +7,7 @@ const FriendCard = () => {
     const [friends, setFriends] = useState([]);
 
     useEffect(() => {
-        fetch('friends.json')
+        fetch('/friends.json')
             .then(res => res.json())
             .then(data => setFriends(data));
     }, []);
