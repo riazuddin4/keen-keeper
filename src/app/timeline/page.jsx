@@ -1,10 +1,11 @@
 'use client';
 
-import { TimelineContext } from "@/components/context/TimeContext";
+
 import { useContext, useState } from "react";
 import { IoCall } from "react-icons/io5";
 import { FaVideo } from "react-icons/fa";
 import { IoMdText } from "react-icons/io";
+import { TimelineContext } from "@/components/context/TimeContext";
 
 
 const TimelinePage = () => {

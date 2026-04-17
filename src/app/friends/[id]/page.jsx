@@ -8,7 +8,7 @@ export default function FriendDetails() {
     const { id } = useParams();
     const [friend, setFriend] = useState(null);
     useEffect(() => {
-        fetch("/friends.json")
+        fetch("https://keen-keeper-peach-one.vercel.app/friends.json")
             .then(res => res.json())
             .then(data => {
                 const singleFriend = data.find(f => f.id == id);

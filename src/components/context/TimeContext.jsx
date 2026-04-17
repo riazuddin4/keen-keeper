@@ -1,5 +1,5 @@
 'use client';
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 export const TimelineContext = createContext();
 
@@ -18,4 +18,13 @@ export const TimelineProvider = ({ children }) => {
     );
 };
 
-export const useTimeline = () => useContext(TimelineContext); 
+
+export const useTimeline = () => {
+    const context = useContext(TimelineContext);
+    if (!context) {
+        throw new Error("useTimeline must be used within TimelineProvider");
+    }
+    return context;
+};
+
+// export const useTimeline = () => useContext(TimelineContext); 
