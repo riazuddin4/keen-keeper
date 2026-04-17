@@ -1,23 +1,35 @@
 'use client';
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState, useEffect } from "react";
 
 export const TimelineContext = createContext();
 
 export const TimelineProvider = ({ children }) => {
-    const [timeline, setTimeline] = useState([]); 
+
+    const [timeline, setTimeline] = useState([]);
+
+  
+    useEffect(() => {
+        const storedData = localStorage.getItem("timeline");
+        if (storedData) {
+            setTimeline(JSON.parse(storedData));
+        }
+    }, []);
+
+ 
+    useEffect(() => {
+        localStorage.setItem("timeline", JSON.stringify(timeline));
+    }, [timeline]);
 
     const addTimeline = (entry) => {
         setTimeline((prev) => [...prev, entry]);
     };
-    console.log(timeline);
+
     return (
         <TimelineContext.Provider value={{ timeline, addTimeline }}>
             {children}
         </TimelineContext.Provider>
-        
     );
 };
-
 
 export const useTimeline = () => {
     const context = useContext(TimelineContext);
@@ -26,5 +38,3 @@ export const useTimeline = () => {
     }
     return context;
 };
-
-// export const useTimeline = () => useContext(TimelineContext); 
